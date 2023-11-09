@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+nav{
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 10vh;
+  min-height: 80px;
+  max-width: 2560px;
+}
+
+header{
+  width: 100%;
+  background-color: aquamarine;
+  height: 90vh;
+  background-image: url("./img/nathan-dumlao-6VhPY27jdps-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+h1{
+  color: #14283a;
+  background-color: aliceblue;
+
+  padding: 2%;
+  border-radius: 8px;
+  font-size: 5rem;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+}
+
+h2{
+  color: #14283a;
+
+  font-size: 4rem;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+h3{
+  color: #14283a;
+
+  font-size: 3rem;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.sect_tipo1{
+  background-color: rgb(171, 139, 201);
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: flex-start;
+  align-items: center;
+  row-gap: 50px;
+
+  padding-top: 50px;
+}
+
+.sect_tipo1 article{
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  background-color: blueviolet;
+
+  justify-content: flex-start;
+  align-items: center;
+
+  row-gap: 50px;
+}
+
+.sect_tipo1 article .contenedor_cajas
+{
+  width: 100%;
+
+  background-color: blanchedalmond;
+
+  display: flex;
+  column-gap: 20px;
+  row-gap: 30px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+  justify-content: center;
+  align-items: flex-start;
+
+  padding: 30px;
+}
+
+
+.caja{
+  width: 200px;
+  height: 400px;
+  min-width: 200px;
+  max-width: 400px;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: flex-start;
+  align-items: center;
+}
+
+
+.caja p{
+  font-size: 60px;
+  color: blue;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.caja img{
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.sect_tipo2{
+  padding-top: 50px;
+  background-color: rgb(201, 172, 139);
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: flex-start;
+  align-items: center;
+  row-gap: 50px;
+
+  padding-top: 50px;
+}
